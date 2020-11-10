@@ -1,15 +1,16 @@
 # Laravel 7 create word document with PHPOffice/PHPWord
+This is using phpoffice package
 
 # Installation
 1. Clone this repo
 ```
-https://github.com/samironbarai/laravel-7-word-document.git
+https://github.com/Mohammedbilal15/htmltoword
 ```
 
 2. Install composer packages
 ```
 cd laravel-7-word-document
-$ composer install
+ composer install
 ```
 
 3. Create and setup .env file
@@ -25,7 +26,3 @@ $ php artisan migrate
 $ php artisan tinker
 $ factory(App\User::class, 50)->create()
 ```
-
-See the video tutorial
-
-[![](https://img.youtube.com/vi/15WXlDO_F20/0.jpg)](https://www.youtube.com/watch?v=15WXlDO_F20) 
